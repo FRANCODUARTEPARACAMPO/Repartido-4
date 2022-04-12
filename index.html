@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header"> 
+        <div class="logo"> 
+            <img class="logo-img" src="jb-logo.jpg"  alt="logo">
+        </div>
+        <div class="panelBusqueda ">
+            <input type="search" id="buscador" placeholder=" ¿Que estas buscando?">
+        </div> 
+    </header>
+    <div class="panel-2">
+        <ul class="panel-2_listas">
+            <li>
+                <a href="#">Juegos</a>
+            </li>
+            <li>
+                <a href="#">Populares</a>
+            </li>
+            <li>
+                <a href="#">Nuevos</a>
+            </li>
+            <li>
+                <a href="#">Proximos lanzamientos</a>
+            </li>
+            <li>
+                <a href="#">Gratis</a>
+            </li>
+            <li>
+                <a href="#contactenos">Contactenos</a>
+            </li>
+        </ul>
+     </div>
+    <section class="contenedor">
+        <div class="tarjetaJuego"> 
+            <img class="img" src="https://holatelcel.com/wp-content/uploads/2018/08/36966824_2030345143709466_664787188537360384_n.jpg">
+            <div id="botonComprar1">
+                <button class="comprar">Comprar ahora</button>
+                <p class="text">Juego disponible.</p> 
+            </div>
+        </div>
+        <div class="tarjetaJuego"> 
+           <img class="img" src="https://alawarland.com/upload/information_system_1/1/2/9/item_1294/information_items_property_14509.jpg">
+            <div id="botonComprar2">
+                <button class="comprar">Comprar ahora</button>
+            </div> 
+            <p class="text">Juego disponible.</p>  
+        </div>
+        <div class="tarjetaJuego"> 
+            <div></div>
+            <img class="img" src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/hc_1440x810/public/media/image/2011/12/133723-analisis-todo-gas-mario-kart-7.jpg?itok=ApOggNXX">
+            <div id="botonComprar3">
+                <button class="comprar">comprar</button>
+            </div>
+         
+            <p class="text">Juego disponible</p>
+        </div>
+    </section>
+    <section class="contenedor">
+        <div class="tarjetaJuego"> 
+            <img class="img" src="age of empire.jpg">
+            <div id="botonComprar1">
+                <button class="comprar">Comprar ahora</button>
+            </div>
+            <p class="text">Juego disponible.</p> 
+        </div>
+        <div class="tarjetaJuego"> 
+            <img class="img" src="capitan toad.jpg">
+            <div id="botonComprar2">
+                <button class="comprar"> Comprar ahora </button>
+            </div> 
+            <p class="text">Juego diponible.</p>  
+        </div>
+        <div class="tarjetaJuego"> 
+            <div></div>
+           <img class="img" src="bomberman.jpg">
+            <div id="botonComprar3">
+                <button class="comprar">Comprar ahora</button>
+            </div>
+         <p class="text">Juego disponible.</p>
+        </div>
+    </section>
+    <div id="contactenos" class="section-two">
+        <h4>Dejanos tu mensaje</h4>
+        <p class="contactenos">Contáctenos</p>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name">Tu nombre:</label><br />
+            <input class="form_input input" id="name" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">tu email:</label><br />
+            <input class="form_input input" id="email" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">tu mensaje:</label><br />
+            <textarea  id="message" name="message" rows="7" cols="30"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+            <button class="comprar">Enviar</button>
+          </form>
+    </div>
+
+
+
+    <div class="footer-dark">
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul class="lista">
+                            <li><a href="#">Online games </a></li>
+                            <li><a href="#">Free games</a></li>
+                          
+                        </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-3 item">
+                        <h3>About</h3>
+                        <ul class="lista">
+                            <li><a href="#">Company</a></li>
+                            <li><a href="#">games</a></li>
+                            <li><a href="#">Free games</a></li>
+                        </ul>
+                    </div>
+                   
+                    </div>
+               
+            </div>
+                <p class="copyright">Para MATEA 2022</p>
+    </div>
+        </footer>
+    </div>
+
+
+
+</body>
+</html>
